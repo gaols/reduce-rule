@@ -10,3 +10,13 @@
 PingDuoDuoReduceRule pingRule = new PingDuoDuoReduceRule(70, 5);
 pingRule.getReduceList(100, 10);
 ```
+
+## 接口说明
+
+### ReduceRule
+
+该接口及其实现类一次性生成砍价列表。
+
+### StatelessReduceRule
+
+该接口及其实现类一次调用只生成当次的砍价金额。
