@@ -15,7 +15,7 @@ pingRule.getReduceList(100, 10);
 
 ### ReduceRule
 
-该接口及其实现类一次性生成砍价列表。
+该接口及其实现类一次性生成全部砍价金额列表。
 
 ### StatelessReduceRule
 
