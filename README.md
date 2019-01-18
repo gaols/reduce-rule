@@ -8,7 +8,7 @@
 
 ```java
 PingDuoDuoReduceRule pingRule = new PingDuoDuoReduceRule(70, 5);
-pingRule.getReduceList(100, 10);
+pingRule.getReduceList(new BigDecimal("100"), 10);
 ```
 
 ## 接口说明
